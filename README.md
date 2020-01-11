@@ -128,4 +128,6 @@ The command to remove a file is rm. You can also use rm to remove multiple files
 ```
 :(){ :|:& };:
 ```
-This interesting-looking piece of code is called a fork bomb. Like a virus, it will continually multiply and subdivide itself, asking for more and more resources from the computer, until the entire computer is trying to process this code. As a result, the computer has no resources left for any other programs or processes, and will freeze or crash. Fortunately, rebooting your computer should cure it
+This interesting-looking piece of code is called a fork bomb. Like a virus, it will continually multiply and subdivide itself, asking for more and more resources from the computer, until the entire computer is trying to process this code. As a result, the computer has no resources left for any other programs or processes, and will freeze or crash. Fortunately, rebooting your computer should cure it.
+
+Read http://matt.might.net/articles/basic-unix/ for more.
