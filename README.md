@@ -1,25 +1,25 @@
 # Command-Line
 
-##What Is the Command Line?
+## What Is the Command Line?
 The command line is the ultimate seat of power on your computer. Using the command line, you can perform amazing feats of wizardry and speed, taming your computer and getting it to do precisely what you want. Unfortunately, the price of this power is complexity: nobody ever said that ruling your computer would be easy.
 
 The command line is, at its heart, simply a place where you type commands to the computer. The computer is your obedient servant, and will attempt to carry out any command that it understands. Unfortunately, the computer does not speak English, or any other language spoken by humans (although it has recognizable elements). In order to give it commands, we must first start learning the language of the computer.
 
 NOTE: The command line, as with all power, has its risks. You have the capability to instruct the computer to do anything it has the capability of doing. If you instruct the computer to erase all of your data, it will cheerfully proceed to do so. Do not run a command just to see what it does. Make sure you understand what the command is supposed to do first, especially if the command involves changing or removing files.
 
-##Finding the Command Line
+## Finding the Command Line
 Most people don't use the command line on a regular basis, so it can be a bit difficult to find the first time. The Windows operating system doesn't even have a proper command line built in — to execute these commands, you will have to install one.
 
-##Mac OS X
+## Mac OS X
 The Mac command line is a program called Terminal. It lives in the /Applications/Utilities/ folder. To find it, go to your Applications folder. Near the bottom, there is a folder called Utilities. Go inside, and one of the applications listed is called Terminal. Double-click that application to open it.
 
-##Linux
+## Linux
 The location of the command line depends on whether you are using the Gnome or KDE window manager. (If there is a big K icon on the bottom left of the screen, you are using KDE; if not, you are using Gnome.) If you are using KDE, click the K button, select System, and click on Konsole. If you are using Gnome, click the Applications button at the top left, select System Tools, and click on Terminal.
 
-##Windows
+## Windows
 Unfortunately, you will have to install your own command line program. Windows comes with a command line, but it is non-standard and more difficult to use. Babun is a free, easy to install command line program. Simply download the Babun installer, double-click it to install Babun, and then move the installer to the recycle bin. To use Babun, go to the Start menu, select Programs, and click on Babun.
 
-##Command Syntax
+## Command Syntax
 Nobody likes grammar, so let's get this over with quickly. All commands have three parts: the utility, the flags, and the arguments. The utility always comes first. The other two parts have different rules, depending on which command you are using: you may not have to use any flags or arguments at all. Here is a sample command that you might type into a command line:
 ```
 ls -l ~/Desktop
@@ -111,10 +111,10 @@ Remember that if you ever get lost in the computer, you can run pwd to see where
 Neat Tricks
 Computer programmers are lazy. Because they are lazy, they invented some techniques to do more with less work. Here are some of those techniques:
 
-##Tab Autocompletion
+## Tab Autocompletion
 Whenever you need to type out a location in an argument (for example, in the cd command), you don't have to type out the whole thing: the first few letters will do. Once you've typed three or four letters, press the tab key, and the command line will fill in the rest for you! For example, if you are in your home directory, and you type cd Desk and then press the tab key, the command line will automatically complete the command to read cd Desktop! You can also use this if you find yourself mistyping folder names: tab autocompletion will always fill it in correctly.
 
-##Shortcuts
+## Shortcuts
 The command line has a few shortcuts built in. For example, to see your previously typed command, just press the up button. You can do this to submit the same command multiple times, or to edit a command that you didn't type in quite right. Another shortcut: you can use ~ (tilde) to refer to your home directory: cd ~ will take you back there.
 
 Warnings
